@@ -1,18 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans Condensed';
     margin: 20px 20px
 }
 
-a {
+.navlink {
     text-decoration: none;
     color: black;
     opacity: 60%;
 }
 
-a:hover {
+.navlink:hover {
     cursor: pointer;
     opacity: 100%;
     transform: scale(1.1);
     transition: opacity 1s cubic-bezier(0.25, 0.45, 0.45, 0.95), transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
-
